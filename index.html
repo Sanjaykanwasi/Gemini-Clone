@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Greatings -->
+      <h2 class="title">Hello, Sanjay</h2>
+      <h4 class="subtitle">How can I help you today?</h4>
+
+      <!-- Suggestion List -->
+      <ul class="suggestion-list">
+        <li class="suggestions">
+          <h4 class="txt">
+            Help me plan a trip with my 5 best friends for under 2000 rupees.
+          </h4>
+          <span class="icons material-symbols-rounded"> draw </span>
+        </li>
+        <li class="suggestions">
+          <h4 class="txt">
+            Finf flights and weather for an upcoming trip to San Francisco.
+          </h4>
+          <span class="icons material-symbols-rounded"> travel </span>
+        </li>
+        <li class="suggestions">
+          <h4 class="txt">
+            Find YouTube videos with inspiring best man speeches.
+          </h4>
+          <span class="icons material-symbols-rounded"> youtube_activity </span>
+        </li>
+        <li class="suggestions">
+          <h4 class="txt">
+            Help me write a code in java to find the maximum number in array.
+          </h4>
+          <span class="icons material-symbols-rounded"> code </span>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Chat Lists -->
+    <div class="chat-list"></div>
+
+    <!-- Typing Area -->
+    <div class="typing-area">
+      <form action="#" class="typing-form">
+        <div class="input-area">
+          <input
+            type="text"
+            placeholder="Enter a prompt here"
+            class="typing-input"
+            required
+          />
+          <button class="icons material-symbols-rounded">send</button>
+        </div>
+
+        <div class="action-buttons">
+          <span id="toggle-theme-button" class="icons material-symbols-rounded"
+            >light_mode</span
+          >
+          <span id="delete-button" class="icons material-symbols-rounded"
+            >delete</span
+          >
+        </div>
+      </form>
+      <p class="disclaimer-txt">
+        Gemini may display inaccurate infomation, including about people, so
+        double-check its responses.
+        <a
+          href="https://support.google.com/gemini/answer/13594961?visit_id=638601699988694751-1554719967&p=privacy_notice&rd=1#privacy_notice"
+          >Your privacy and Gemini Apps</a
+        >
+      </p>
+      <p class="disclaimer-txt">Made By Sanjay with ❤️</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
